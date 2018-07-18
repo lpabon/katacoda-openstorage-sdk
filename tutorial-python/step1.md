@@ -19,15 +19,22 @@ port `9110` for the gRPC REST Gateway connection.
 Let's test the connection now before continuing by running the following to the
 gRPC REST Gateway:
 
-`curl -X GET "http://docker:9110/v1/clusters/current" \
+`curl -s -X GET "http://docker:9110/v1/clusters/current" \
   -H "accept: application/json" \
   -H "Content-Type: application/json" \
-  -d "{}"
+  -d "{}" | jq
 `{{execute}}
 
 This should return information about the cluster in JSON format, as shown below:
 
-`{"cluster":{"status":"STATUS_OK","id":"mock"}}`
+`
+{
+  "cluster": {
+    "status": "STATUS_OK",
+    "id": "mock"
+  }
+}
+`
 
 ## REST Swagger User Interface
 If you would like to access the Swagger-ui for use with `curl` or other REST clients,
