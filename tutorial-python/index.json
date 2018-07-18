@@ -15,6 +15,10 @@
       {
         "title": "Volume operations",
         "text": "step3.md"
+      },
+      {
+        "title": "Backup operations",
+        "text": "step4.md"
       }
     ],
     "intro": {
@@ -24,9 +28,11 @@
       "host01": [ {"file": "*", "target": "/root", "chmod": "+x" } ]
     },
     "files": [
-      "/root/app.py"
+      "/root/app.py",
+      "crazy.txt"
     ],
     "finish": {
+      "title": "What's next?",
       "text": "finish.md"
     }
   },
