@@ -28,8 +28,7 @@
       "host01": [ {"file": "*", "target": "/root", "chmod": "+x" } ]
     },
     "files": [
-      "/root/app.py",
-      "crazy.txt"
+      "/root/app.py"
     ],
     "finish": {
       "title": "What's next?",
