@@ -1,1 +1,1 @@
-setup-env.sh
+./setup-env.sh
