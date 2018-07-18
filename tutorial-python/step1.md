@@ -4,7 +4,7 @@ Start the `mock-sdk-server`:
 
 Now check that it is running:
 
-`curl -X GET "http://localhost:9110/v1/clusters/current" \
+`curl -X GET "http://docker:9110/v1/clusters/current" \
   -H "accept: application/json" \
   -H "Content-Type: application/json" \
   -d "{}"
