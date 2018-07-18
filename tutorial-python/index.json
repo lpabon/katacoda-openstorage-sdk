@@ -23,12 +23,15 @@
     "assets": {
       "host01": [ {"file": "*", "target": "/root", "chmod": "+x" } ]
     },
+    "files": [
+      "app.py"
+    ],
     "finish": {
       "text": "finish.md"
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "editor-terminal"
   },
   "backend": {
     "imageid": "ubuntu"
