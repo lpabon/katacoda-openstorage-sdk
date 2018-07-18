@@ -14,10 +14,9 @@ This will start the mock server
 
 
 ## REST Swagger User Interface
-Access the Swagger-ui through the following link below. Once on the Swagger UI,
-you must the the _Schemes_ value to **HTTPS** to make it work with Katacoda.
+If you would like to access the Swagger-ui for use with `curl` or other REST clients,
+follow the link below. Once on the Swagger UI, you must the the _Schemes_ value to
+**HTTPS** to make it work with Katacoda.
 
-[LINK](https://[[HOST_SUBDOMAIN]]-9110-[[KATACODA_HOST]].environments.katacoda.com/swagger-ui)
-
-https://[[HOST_SUBDOMAIN]]-9110-[[KATACODA_HOST]].environments.katacoda.com/swagger-ui
+[Swagger UI](https://[[HOST_SUBDOMAIN]]-9110-[[KATACODA_HOST]].environments.katacoda.com/swagger-ui)
 

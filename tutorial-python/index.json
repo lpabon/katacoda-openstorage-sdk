@@ -25,9 +25,7 @@
     }
   },
   "environment": {
-    "uilayout": "terminal",
-	"showdashboard": true,
-	"dashboards": [{"name": "Swagger UI (Use HTTPS)", "port": 9110}]
+    "uilayout": "terminal"
   },
   "backend": {
     "imageid": "docker"
