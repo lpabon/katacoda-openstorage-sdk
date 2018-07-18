@@ -1,11 +1,12 @@
 {
-  "title": "OpenStorage SDK",
-  "description": "An example OpenStorage SDK environment",
+  "title": "Python Tutorial for OpenStorage SDK",
+  "description": "A tutorial in python for the OpenStorage SDK environment",
   "details": {
     "steps": [
       {
-        "title": "Step 1",
-        "text": "step1.md"
+        "title": "Setting up the environment",
+        "text": "step1.md",
+		"courseData": "setup-env.sh"
       },
       {
         "title": "Step 2",
