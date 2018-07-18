@@ -48,8 +48,8 @@ Now all python commands will use the libraries contained in the `sdkenv`
 virtualenv.
 
 ## REST Swagger User Interface
-If you would like to access the Swagger-ui for use with `curl` or other REST clients,
-follow the link below. Once on the Swagger UI, you must the the _Schemes_ value to
+If you would like to access the Swagger-UI for use with `curl` or other REST clients,
+follow the link below. Once on the Swagger-UI, you must the the _Schemes_ value to
 **HTTPS** to make it work with Katacoda.
 
 [Click here for Swagger UI](https://[[HOST_SUBDOMAIN]]-9110-[[KATACODA_HOST]].environments.katacoda.com/swagger-ui)
