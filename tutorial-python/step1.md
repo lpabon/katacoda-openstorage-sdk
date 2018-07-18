@@ -8,7 +8,9 @@ running a container on your laptop or system.
 Run the following command to start the server:
 
 `
-$ docker run --rm --name sdk -d -p 9100:9100 -p 9110:9110 openstorage/mock-sdk-server
+docker run --rm --name sdk -d \
+   -p 9100:9100 -p 9110:9110 \
+   openstorage/mock-sdk-server
 `{{execute}}
 
 Running this docker command will expose port `9100` for the gRPC server, and
