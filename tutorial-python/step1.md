@@ -39,7 +39,7 @@ This should return information about the cluster in JSON format, as shown below:
 
 ## Python environment setup
 
-Lastly we need to setup our terminal environment to use the python virtualenv
+Lastly you need to setup our terminal environment to use the python virtualenv
 that has been setup. To do this run:
 
 `source sdkenv/bin/activate`{{execute}}

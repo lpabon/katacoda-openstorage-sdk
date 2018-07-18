@@ -62,8 +62,8 @@ to get information about the backup:
 
 </pre>
 
-Lastly, once the backup is complete, we can get a history of this and any
-other backups we have created from our volume:
+Lastly, once the backup is complete, you can get a history of this and any
+other backups you have created from our volume:
 
 <pre class="file" data-filename="app.py">
 

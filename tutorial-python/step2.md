@@ -16,7 +16,7 @@ so the tutorial will only focus on an insecure connection. The SDK project
 will add HTTPS and authentication support in following releases.
 
 Now that you have made a connection, you can use the `channel` object to create
-clients for each of the services we would like to use. Let's use the [OpenStorageCluster](https://libopenstorage.github.io/w/generated-api.html#serviceopenstorageapiopenstoragecluster)
+clients for each of the services you would like to use. Let's use the [OpenStorageCluster](https://libopenstorage.github.io/w/generated-api.html#serviceopenstorageapiopenstoragecluster)
 service to print the `id` of the cluster:
 
 ## Cluster operations

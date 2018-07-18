@@ -1,6 +1,6 @@
 ## Create a volume
 
-Now that we have connected to the cluster, let's go ahead and create a
+Now that you have connected to the cluster, let's go ahead and create a
 volume of size 100Gi:
 
 <pre class="file" data-filename="app.py">
@@ -51,7 +51,7 @@ Let's create the snapshot for the volume:
 
 `python app.py`{{execute}}
 
-Notice that a new volume is not created when we run the application again.
+Notice that a new volume is not created when you run the application again.
 That is due to the the call being idempotent. Unlike the creation call,
 calling snapshots again will create a new snapshot. Let's try that:
 
