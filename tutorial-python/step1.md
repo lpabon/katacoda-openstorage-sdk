@@ -5,7 +5,8 @@ OpenStorage project. It is an in-memory storage system implementation of the
 OpenStorage SDK and it makes it possible to develop your client by simply
 running a container on your laptop or system.
 
-Run the following command to start the server:
+Once the initial setup of the environment has finished, run the following
+command to start the `mock-sdk-server`:
 
 `
 docker run --rm --name sdk -d \
@@ -41,7 +42,7 @@ This should return information about the cluster in JSON format, as shown below:
 Lastly we need to setup our terminal environment to use the python virtualenv
 that has been setup. To do this run:
 
-`source sdkenv/bin/activate`
+`source sdkenv/bin/activate`{{execute}}
 
 Now all python commands will use the libraries contained in the `sdkenv`
 virtualenv.
