@@ -9,7 +9,7 @@
         "code": "background.sh"
       },
       {
-        "title": "Step 2",
+        "title": "Connecting to the cluster",
         "text": "step2.md"
       },
       {
@@ -24,7 +24,7 @@
       "host01": [ {"file": "*", "target": "/root", "chmod": "+x" } ]
     },
     "files": [
-      "app.py"
+      "/root/app.py"
     ],
     "finish": {
       "text": "finish.md"

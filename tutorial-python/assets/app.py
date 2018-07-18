@@ -1,18 +1,3 @@
-import grpc
-from openstorage import api_pb2
-from openstorage import api_pb2_grpc
-
-channel = grpc.insecure_channel('localhost:9100')
-
-try:
-    # Cluster connection
-    clusters = api_pb2_grpc.OpenStorageClusterStub(channel)
-    ic_resp = clusters.InspectCurrent(api_pb2.SdkClusterInspectCurrentRequest())
-    print('Conntected to {0} with status {1}'.format(
-        ic_resp.cluster.id,
-        api_pb2.Status.Name(ic_resp.cluster.status)
-    ))
-
 '''
     # Create a volume
     volumes = api_pb2_grpc.OpenStorageVolumeStub(channel)
@@ -70,7 +55,11 @@ try:
             item.timestamp.ToJsonString(),
             api_pb2.SdkCloudBackupStatusType.Name(item.status)
         ))
-'''
 
 except grpc.RpcError as e:
     print('Failed: code={0} msg={1}'.format(e.code(), e.details()))
+'''
+
+import grpc
+from openstorage import api_pb2
+from openstorage import api_pb2_grpc

@@ -36,6 +36,16 @@ This should return information about the cluster in JSON format, as shown below:
 }
 `
 
+## Python environment setup
+
+Lastly we need to setup our terminal environment to use the python virtualenv
+that has been setup. To do this run:
+
+`source sdkenv/bin/activate`
+
+Now all python commands will use the libraries contained in the `sdkenv`
+virtualenv.
+
 ## REST Swagger User Interface
 If you would like to access the Swagger-ui for use with `curl` or other REST clients,
 follow the link below. Once on the Swagger UI, you must the the _Schemes_ value to
