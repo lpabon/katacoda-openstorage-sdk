@@ -6,7 +6,7 @@
       {
         "title": "Setting up the environment",
         "text": "step1.md",
-        "code": "setup-env.sh"
+        "code": "background.sh"
       },
       {
         "title": "Step 2",
@@ -19,6 +19,9 @@
     ],
     "intro": {
       "text": "intro.md"
+    },
+    "assets": {
+      "host01": [ {"file": "*", "target": "/root", "chmod": "+x" } ]
     },
     "finish": {
       "text": "finish.md"
