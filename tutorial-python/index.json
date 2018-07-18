@@ -6,7 +6,7 @@
       {
         "title": "Setting up the environment",
         "text": "step1.md",
-		"courseData": "setup-env.sh"
+		    "courseData": "setup-env.sh"
       },
       {
         "title": "Step 2",
