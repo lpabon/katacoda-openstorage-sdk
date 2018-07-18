@@ -13,6 +13,7 @@ try:
         api_pb2.Status.Name(ic_resp.cluster.status)
     ))
 
+'''
     # Create a volume
     volumes = api_pb2_grpc.OpenStorageVolumeStub(channel)
     v_resp = volumes.Create(api_pb2.SdkVolumeCreateRequest(
@@ -69,6 +70,7 @@ try:
             item.timestamp.ToJsonString(),
             api_pb2.SdkCloudBackupStatusType.Name(item.status)
         ))
+'''
 
 except grpc.RpcError as e:
     print('Failed: code={0} msg={1}'.format(e.code(), e.details()))
