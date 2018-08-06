@@ -5,8 +5,7 @@
     "steps": [
       {
         "title": "Setting up the environment",
-        "text": "step1.md",
-        "code": "background.sh"
+        "text": "step1.md"
       },
       {
         "title": "Connecting to the cluster",
