@@ -5,6 +5,12 @@ OpenStorage project. It is an in-memory storage system implementation of the
 OpenStorage SDK and it makes it possible to develop your client by simply
 running a container on your laptop or system.
 
+First, let's setup the environment by running the following command:
+
+`
+./setup-env.sh
+`{{execute}}
+
 Once the initial setup of the environment has finished, run the following
 command to start the `mock-sdk-server`:
 
