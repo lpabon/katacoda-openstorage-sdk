@@ -38,6 +38,7 @@ You can now create a snapshot of this volume:
 try:
     # Create a snapshot
     snap = volumes.SnapshotCreate(api_pb2.SdkVolumeSnapshotCreateRequest(
+        name="mysnap",
         volume_id=v_resp.volume_id,
     ))
     print('Snapshot created with id {0}'.format(snap.snapshot_id))
