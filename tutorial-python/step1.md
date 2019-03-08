@@ -26,7 +26,7 @@ port `9110` for the gRPC REST Gateway connection.
 Let's test the connection now before continuing by running the following to the
 gRPC REST Gateway:
 
-`curl -s -X GET "http://localhost:9110/v1/clusters/current" \
+`curl -s -X GET "http://localhost:9110/v1/clusters/inspectcurrent" \
   -H "accept: application/json" \
   -H "Content-Type: application/json" \
   -d "{}" | jq
