@@ -6,7 +6,7 @@ fail() {
 }
 
 echo "Install packages"
-apt -y install jq > /dev/null 2>&1 || fail "Failed to install packages"
+apt -y install python3 python3-dev python3-venv jq > /dev/null 2>&1 || fail "Failed to install packages"
 
 echo "Installing python virtual env"
 echo "+ Creating virtual environment in ${VIRTUALENV}"
