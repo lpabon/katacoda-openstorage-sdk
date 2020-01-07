@@ -7,7 +7,8 @@ To use any of the gRPC functions, you must first create a connection with
 the OpenStorage SDK server:
 
 <pre class="file" data-filename="app.py">
-channel = grpc.insecure_channel('localhost:9100')
+c = connector.Connector('localhost:9100')
+channel = c.connect()
 </pre>
 
 Notice the call [`grpc.insecure_channel()`](https://grpc.io/docs/guides/auth.html).

@@ -1,4 +1,4 @@
-# OpenStorage SDK Python Client Tutorial 
+# OpenStorage SDK Python Client Tutorial
 In this tutorial will be going step by step how to use a Python gRPC
 client leveraging the OpenStorage SDK to create a volume, take its snapshot,
 and backup it up to a cloud.
